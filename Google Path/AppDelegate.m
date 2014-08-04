@@ -3,18 +3,21 @@
 //  Google Path
 //
 //  Created by apple on 04/08/14.
-//  Copyright (c) 2014 SAG. All rights reserved.
+//  Copyright Jogendra.com All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "googlePathDrawViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{   [GMSServices provideAPIKey:@"AIzaSyDba5xZDm_oSEJvx2LS9oC2G8npY4QIXUY"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    googlePathDrawViewController *googlePath = [[googlePathDrawViewController alloc]init];
+    [self.window setRootViewController:googlePath];
     [self.window makeKeyAndVisible];
     return YES;
 }

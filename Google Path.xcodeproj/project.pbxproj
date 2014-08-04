@@ -19,6 +19,32 @@
 		1882977F198F895F00AF8881 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18829767198F895F00AF8881 /* UIKit.framework */; };
 		18829787198F895F00AF8881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18829785198F895F00AF8881 /* InfoPlist.strings */; };
 		18829789198F895F00AF8881 /* Google_PathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18829788198F895F00AF8881 /* Google_PathTests.m */; };
+		18829798198F899100AF8881 /* googlePathDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18829796198F899100AF8881 /* googlePathDrawViewController.m */; };
+		18829799198F899100AF8881 /* googlePathDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18829797198F899100AF8881 /* googlePathDrawViewController.xib */; };
+		1882979D198F8ADD00AF8881 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1882979C198F8ADD00AF8881 /* AVFoundation.framework */; };
+		1882979F198F8AEC00AF8881 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1882979E198F8AEC00AF8881 /* CoreData.framework */; };
+		188297A1198F8AF400AF8881 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297A0198F8AF400AF8881 /* CoreLocation.framework */; };
+		188297A3198F8AFB00AF8881 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297A2198F8AFB00AF8881 /* CoreText.framework */; };
+		188297A5198F8B0100AF8881 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297A4198F8B0100AF8881 /* GLKit.framework */; };
+		188297A7198F8B0800AF8881 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297A6198F8B0800AF8881 /* ImageIO.framework */; };
+		188297A9198F8B1700AF8881 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297A8198F8B1700AF8881 /* libc++.dylib */; };
+		188297AB198F8B1E00AF8881 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297AA198F8B1E00AF8881 /* libicucore.dylib */; };
+		188297AD198F8B2500AF8881 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297AC198F8B2500AF8881 /* libz.dylib */; };
+		188297AF198F8B2B00AF8881 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297AE198F8B2B00AF8881 /* OpenGLES.framework */; };
+		188297B1198F8B3100AF8881 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297B0198F8B3100AF8881 /* QuartzCore.framework */; };
+		188297B3198F8B3900AF8881 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297B2198F8B3900AF8881 /* SystemConfiguration.framework */; };
+		188297B9198F98DD00AF8881 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188297B8198F98DD00AF8881 /* GoogleMaps.framework */; };
+		188297BB198F98F900AF8881 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 188297BA198F98F900AF8881 /* GoogleMaps.bundle */; };
+		188297D2198FAA8600AF8881 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297BD198FAA8600AF8881 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D3198FAA8600AF8881 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297C0198FAA8600AF8881 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D4198FAA8600AF8881 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297C2198FAA8600AF8881 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D5198FAA8600AF8881 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297C4198FAA8600AF8881 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D6198FAA8600AF8881 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297C6198FAA8600AF8881 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D7198FAA8600AF8881 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297C8198FAA8600AF8881 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D8198FAA8600AF8881 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297CC198FAA8600AF8881 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297D9198FAA8600AF8881 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297CE198FAA8600AF8881 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		188297DA198FAA8600AF8881 /* LRouteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297D1198FAA8600AF8881 /* LRouteController.m */; };
+		188297DE198FAB9900AF8881 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 188297DD198FAB9900AF8881 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +74,47 @@
 		18829784198F895F00AF8881 /* Google PathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Google PathTests-Info.plist"; sourceTree = "<group>"; };
 		18829786198F895F00AF8881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18829788198F895F00AF8881 /* Google_PathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_PathTests.m; sourceTree = "<group>"; };
+		18829795198F899100AF8881 /* googlePathDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googlePathDrawViewController.h; sourceTree = "<group>"; };
+		18829796198F899100AF8881 /* googlePathDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = googlePathDrawViewController.m; sourceTree = "<group>"; };
+		18829797198F899100AF8881 /* googlePathDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = googlePathDrawViewController.xib; sourceTree = "<group>"; };
+		1882979C198F8ADD00AF8881 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1882979E198F8AEC00AF8881 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		188297A0198F8AF400AF8881 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		188297A2198F8AFB00AF8881 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		188297A4198F8B0100AF8881 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		188297A6198F8B0800AF8881 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		188297A8198F8B1700AF8881 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		188297AA198F8B1E00AF8881 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		188297AC198F8B2500AF8881 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		188297AE198F8B2B00AF8881 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		188297B0198F8B3100AF8881 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		188297B2198F8B3900AF8881 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		188297B8198F98DD00AF8881 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		188297BA198F98F900AF8881 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		188297BC198FAA8600AF8881 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		188297BD198FAA8600AF8881 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		188297BE198FAA8600AF8881 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		188297BF198FAA8600AF8881 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		188297C0198FAA8600AF8881 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		188297C1198FAA8600AF8881 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		188297C2198FAA8600AF8881 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		188297C3198FAA8600AF8881 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		188297C4198FAA8600AF8881 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		188297C5198FAA8600AF8881 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		188297C6198FAA8600AF8881 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		188297C7198FAA8600AF8881 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		188297C8198FAA8600AF8881 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		188297C9198FAA8600AF8881 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		188297CA198FAA8600AF8881 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		188297CB198FAA8600AF8881 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		188297CC198FAA8600AF8881 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		188297CD198FAA8600AF8881 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		188297CE198FAA8600AF8881 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		188297CF198FAA8600AF8881 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		188297D0198FAA8600AF8881 /* LRouteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRouteController.h; sourceTree = "<group>"; };
+		188297D1198FAA8600AF8881 /* LRouteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRouteController.m; sourceTree = "<group>"; };
+		188297DC198FAB9900AF8881 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		188297DD198FAB9900AF8881 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +122,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188297B3198F8B3900AF8881 /* SystemConfiguration.framework in Frameworks */,
+				188297B1198F8B3100AF8881 /* QuartzCore.framework in Frameworks */,
+				188297AF198F8B2B00AF8881 /* OpenGLES.framework in Frameworks */,
+				188297AD198F8B2500AF8881 /* libz.dylib in Frameworks */,
+				188297AB198F8B1E00AF8881 /* libicucore.dylib in Frameworks */,
+				188297A9198F8B1700AF8881 /* libc++.dylib in Frameworks */,
+				188297A7198F8B0800AF8881 /* ImageIO.framework in Frameworks */,
+				188297A5198F8B0100AF8881 /* GLKit.framework in Frameworks */,
+				188297A3198F8AFB00AF8881 /* CoreText.framework in Frameworks */,
+				188297A1198F8AF400AF8881 /* CoreLocation.framework in Frameworks */,
+				1882979F198F8AEC00AF8881 /* CoreData.framework in Frameworks */,
+				1882979D198F8ADD00AF8881 /* AVFoundation.framework in Frameworks */,
 				18829766198F895F00AF8881 /* CoreGraphics.framework in Frameworks */,
 				18829768198F895F00AF8881 /* UIKit.framework in Frameworks */,
+				188297B9198F98DD00AF8881 /* GoogleMaps.framework in Frameworks */,
 				18829764198F895F00AF8881 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +157,11 @@
 		18829757198F895F00AF8881 = {
 			isa = PBXGroup;
 			children = (
+				188297DC198FAB9900AF8881 /* Reachability.h */,
+				188297DD198FAB9900AF8881 /* Reachability.m */,
+				188297DB198FAA8A00AF8881 /* ASHI */,
+				188297D0198FAA8600AF8881 /* LRouteController.h */,
+				188297D1198FAA8600AF8881 /* LRouteController.m */,
 				18829769198F895F00AF8881 /* Google Path */,
 				18829782198F895F00AF8881 /* Google PathTests */,
 				18829762198F895F00AF8881 /* Frameworks */,
@@ -96,6 +181,20 @@
 		18829762198F895F00AF8881 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				188297BA198F98F900AF8881 /* GoogleMaps.bundle */,
+				188297B8198F98DD00AF8881 /* GoogleMaps.framework */,
+				188297B2198F8B3900AF8881 /* SystemConfiguration.framework */,
+				188297B0198F8B3100AF8881 /* QuartzCore.framework */,
+				188297AE198F8B2B00AF8881 /* OpenGLES.framework */,
+				188297AC198F8B2500AF8881 /* libz.dylib */,
+				188297AA198F8B1E00AF8881 /* libicucore.dylib */,
+				188297A8198F8B1700AF8881 /* libc++.dylib */,
+				188297A6198F8B0800AF8881 /* ImageIO.framework */,
+				188297A4198F8B0100AF8881 /* GLKit.framework */,
+				188297A2198F8AFB00AF8881 /* CoreText.framework */,
+				188297A0198F8AF400AF8881 /* CoreLocation.framework */,
+				1882979E198F8AEC00AF8881 /* CoreData.framework */,
+				1882979C198F8ADD00AF8881 /* AVFoundation.framework */,
 				18829763198F895F00AF8881 /* Foundation.framework */,
 				18829765198F895F00AF8881 /* CoreGraphics.framework */,
 				18829767198F895F00AF8881 /* UIKit.framework */,
@@ -109,6 +208,9 @@
 			children = (
 				18829772198F895F00AF8881 /* AppDelegate.h */,
 				18829773198F895F00AF8881 /* AppDelegate.m */,
+				18829795198F899100AF8881 /* googlePathDrawViewController.h */,
+				18829796198F899100AF8881 /* googlePathDrawViewController.m */,
+				18829797198F899100AF8881 /* googlePathDrawViewController.xib */,
 				18829775198F895F00AF8881 /* Images.xcassets */,
 				1882976A198F895F00AF8881 /* Supporting Files */,
 			);
@@ -142,6 +244,33 @@
 				18829785198F895F00AF8881 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188297DB198FAA8A00AF8881 /* ASHI */ = {
+			isa = PBXGroup;
+			children = (
+				188297BC198FAA8600AF8881 /* ASIAuthenticationDialog.h */,
+				188297BD198FAA8600AF8881 /* ASIAuthenticationDialog.m */,
+				188297BE198FAA8600AF8881 /* ASICacheDelegate.h */,
+				188297BF198FAA8600AF8881 /* ASIDataCompressor.h */,
+				188297C0198FAA8600AF8881 /* ASIDataCompressor.m */,
+				188297C1198FAA8600AF8881 /* ASIDataDecompressor.h */,
+				188297C2198FAA8600AF8881 /* ASIDataDecompressor.m */,
+				188297C3198FAA8600AF8881 /* ASIDownloadCache.h */,
+				188297C4198FAA8600AF8881 /* ASIDownloadCache.m */,
+				188297C5198FAA8600AF8881 /* ASIFormDataRequest.h */,
+				188297C6198FAA8600AF8881 /* ASIFormDataRequest.m */,
+				188297C7198FAA8600AF8881 /* ASIHTTPRequest.h */,
+				188297C8198FAA8600AF8881 /* ASIHTTPRequest.m */,
+				188297C9198FAA8600AF8881 /* ASIHTTPRequestConfig.h */,
+				188297CA198FAA8600AF8881 /* ASIHTTPRequestDelegate.h */,
+				188297CB198FAA8600AF8881 /* ASIInputStream.h */,
+				188297CC198FAA8600AF8881 /* ASIInputStream.m */,
+				188297CD198FAA8600AF8881 /* ASINetworkQueue.h */,
+				188297CE198FAA8600AF8881 /* ASINetworkQueue.m */,
+				188297CF198FAA8600AF8881 /* ASIProgressDelegate.h */,
+			);
+			name = ASHI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1882976E198F895F00AF8881 /* InfoPlist.strings in Resources */,
+				18829799198F899100AF8881 /* googlePathDrawViewController.xib in Resources */,
 				18829776198F895F00AF8881 /* Images.xcassets in Resources */,
+				188297BB198F98F900AF8881 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +370,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188297DE198FAB9900AF8881 /* Reachability.m in Sources */,
+				188297DA198FAA8600AF8881 /* LRouteController.m in Sources */,
+				188297D3198FAA8600AF8881 /* ASIDataCompressor.m in Sources */,
 				18829774198F895F00AF8881 /* AppDelegate.m in Sources */,
+				188297D7198FAA8600AF8881 /* ASIHTTPRequest.m in Sources */,
+				188297D2198FAA8600AF8881 /* ASIAuthenticationDialog.m in Sources */,
+				188297D6198FAA8600AF8881 /* ASIFormDataRequest.m in Sources */,
 				18829770198F895F00AF8881 /* main.m in Sources */,
+				188297D8198FAA8600AF8881 /* ASIInputStream.m in Sources */,
+				18829798198F899100AF8881 /* googlePathDrawViewController.m in Sources */,
+				188297D9198FAA8600AF8881 /* ASINetworkQueue.m in Sources */,
+				188297D4198FAA8600AF8881 /* ASIDataDecompressor.m in Sources */,
+				188297D5198FAA8600AF8881 /* ASIDownloadCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +501,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Google Path/Google Path-Prefix.pch";
 				INFOPLIST_FILE = "Google Path/Google Path-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,9 +519,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Google Path/Google Path-Prefix.pch";
 				INFOPLIST_FILE = "Google Path/Google Path-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
